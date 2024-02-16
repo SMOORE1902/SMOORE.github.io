@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #F4F4F4; /* A light cream/grey color */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    border: 5px solid #BB0000; /* Subtle scarlet border for the body */
+    box-sizing: border-box;
+}
+
+header {
+    background: #333; /* A darker greyish black for the header */
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif; /* Use the 'Lato' font */
+}
+
+header h1 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.profile-headshot {
+    width: 250px;
+    height: auto;
+    border: 5px solid #333; /* Dark grey border for the image */
+    display: block;
+    margin: 2rem auto;
+    border-radius: 5px;
+}
+
+.about-me {
+    background: transparent;
+    padding: 2rem;
+    margin: 2rem auto; /* Centering the section */
+    max-width: 900px; /* Limiting the width for a cleaner look */
+}
+
+footer {
+    background: #333; /* A darker grey for the footer */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
